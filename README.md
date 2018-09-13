@@ -1,27 +1,29 @@
 # SwiftDictionaryCoding
-Decode / encode instances of Decodable/Encodable objects to / from dictionaries
+
+[![CI Status](https://img.shields.io/travis/ashleymills/SwiftDictionaryCoding.svg?style=flat)](https://travis-ci.org/ashleymills/SwiftDictionaryCoding)
+[![Version](https://img.shields.io/cocoapods/v/SwiftDictionaryCoding.svg?style=flat)](https://cocoapods.org/pods/SwiftDictionaryCoding)
+[![License](https://img.shields.io/cocoapods/l/SwiftDictionaryCoding.svg?style=flat)](https://cocoapods.org/pods/SwiftDictionaryCoding)
+[![Platform](https://img.shields.io/cocoapods/p/SwiftDictionaryCoding.svg?style=flat)](https://cocoapods.org/pods/SwiftDictionaryCoding)
+
+## Example
+
+To run the example project, clone the repo, and run `pod install` from the Example directory first.
+
+## Requirements
 
 ## Installation
-### CocoaPods
-[CocoaPods][] is a dependency manager for Cocoa projects. To install **SwiftDictionaryCoding** with CocoaPods:
 
- 1. Make sure CocoaPods is [installed][CocoaPods Installation].
+SwiftDictionaryCoding is available through [CocoaPods](https://cocoapods.org). To install
+it, simply add the following line to your Podfile:
 
- 2. Update your Podfile to include the following:
+```ruby
+pod 'SwiftDictionaryCoding'
+```
 
-    ``` ruby
-    use_frameworks!
-    pod 'SwiftDictionaryCoding'
-    ```
+## Author
 
- 3. Run `pod install`.
+ashleymills, ashleymills@mac.com
 
-[CocoaPods]: https://cocoapods.org
-[CocoaPods Installation]: https://guides.cocoapods.org/using/getting-started.html#getting-started
- 
- 4. In your code import **SwiftDictionaryCoding** like so:
+## License
 
-    ``` ruby
-     `import SwiftDictionaryCoding`
-    ```
- 
+SwiftDictionaryCoding is available under the MIT license. See the LICENSE file for more info.
