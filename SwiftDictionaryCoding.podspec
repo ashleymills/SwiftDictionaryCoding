@@ -11,6 +11,7 @@ Pod::Spec.new do |s|
   s.version          = '1.0.0'
   s.summary          = 'Decode / encode dictionaries.'
   s.description      = 'Decode / encode instances of Decodable/Encodable objects to / from dictionaries'
+  s.swift_version    = '4.1'
 
   s.homepage         = 'https://github.com/ashleymills/SwiftDictionaryCoding'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
