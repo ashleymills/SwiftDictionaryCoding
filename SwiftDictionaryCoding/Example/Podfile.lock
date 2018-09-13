@@ -1,0 +1,16 @@
+PODS:
+  - SwiftDictionaryCoding (0.1.0)
+
+DEPENDENCIES:
+  - SwiftDictionaryCoding (from `../`)
+
+EXTERNAL SOURCES:
+  SwiftDictionaryCoding:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SwiftDictionaryCoding: 0bb6b1b6762604a2ee6eda7adf73be928be7f297
+
+PODFILE CHECKSUM: 2b2e9869574ce27b0949ff049c078a48fddffd6a
+
+COCOAPODS: 1.5.3

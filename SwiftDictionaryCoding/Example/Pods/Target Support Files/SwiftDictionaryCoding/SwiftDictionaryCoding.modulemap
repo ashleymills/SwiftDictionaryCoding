@@ -1,0 +1,6 @@
+framework module SwiftDictionaryCoding {
+  umbrella header "SwiftDictionaryCoding-umbrella.h"
+
+  export *
+  module * { export * }
+}

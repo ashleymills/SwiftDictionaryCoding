@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'SwiftDictionaryCoding_Example' do
+  pod 'SwiftDictionaryCoding', :path => '../'
+
+  target 'SwiftDictionaryCoding_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

@@ -1,0 +1,6 @@
+framework module Pods_SwiftDictionaryCoding_Example {
+  umbrella header "Pods-SwiftDictionaryCoding_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
