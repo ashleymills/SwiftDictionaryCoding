@@ -1,2 +1,2 @@
 # SwiftDictionaryCoding
-Decode / encode instances of a Decodable/Encodable object to / from dictionaries
+Decode / encode instances of Decodable/Encodable objects to / from dictionaries
