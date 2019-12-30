@@ -19,12 +19,12 @@ struct Event: Codable {
 
 let event = Event(id: 1, eventName: "Christmas", location: nil, price: 10)
 let encoder = DictionaryEncoder()
-let dict = try encoder.encode(event) 
+let dict = try encoder.encode(event)
 ```
 
 ### Decoding
 ```Swift
-let dict: [String: Any] = ["id": 1, "eventName": "Christmas", "price": 10]        
+let dict: [String: Any] = ["id": 1, "eventName": "Christmas", "price": 10]
 let decoder = DictionaryDecoder()
 let event = try decoder.decode(Event.self, from: dict))
 ```
@@ -32,11 +32,25 @@ let event = try decoder.decode(Event.self, from: dict))
 
 ## Installation
 
+### CocoaPods
+
 SwiftDictionaryCoding is available through [CocoaPods](https://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
 ```ruby
 pod 'SwiftDictionaryCoding'
+```
+
+### Swift Package Manager
+
+SwiftDictionaryCoding is available through [Swift Package Manager](https://swift.org/package-manager/).
+
+Add the following dependency in your Package.swift to install:
+
+```swift
+dependencies: [
+    .package(url: "https://github.com/ashleymills/SwiftDictionaryCoding.git", from: "1.0.0")
+]
 ```
 
 ## Author
